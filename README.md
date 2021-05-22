@@ -127,4 +127,10 @@ Once your batteries are connected to your weather station you should notice that
 
 ### Insert image of weather station + batteries
 
-You have now sucessfully assembled and programmed your weather station. Below you can find example experiments, an introduction to interpreting your data, and coding your own custom programs for your Destination Weather Station. If you have any questions about what was covered above or in any other section of this repository, feel free to reach out to Austin Gleydura at austingleydura@pm.me
+You have now sucessfully assembled and programmed your weather station. Below you can find example experiments, an introduction to interpreting your data, and coding your own custom programs for your Destination Weather Station. 
+
+**Experiments**
+**Data Analytics**
+**Arduino Programming*
+
+If you have any questions about what was covered above or in any other section of this repository, feel free to reach out to Austin Gleydura at austingleydura@pm.me
