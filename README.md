@@ -24,9 +24,7 @@ Each kit comes with all the materials needed to get started with your Destinatio
 ## Section 1: Laying Out Components
 Breadboards are a common tool used to prototype electronic circuits. They have several *busses* that are used to electrically connect sets of sockets together to allow the current in the circuit to be distributed across several sockets. Below is an image of how these busses are connected on a standard 30 row breadboard. Each socket in a breadboard has a unique name using the corresponding column (a-j) and row (1-30). For example hole **c1** is located in the third column and in the first row. This convention will be used going forward.
 
-![Imgur Image](http://i.imgur.com/w2tjGuL.jpg)
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/w2tjGuL"><a href="//imgur.com/w2tjGuL">Destination Weather Station</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 Begin by grabbing your Seeeduino XIAO, BME280, OLED display, microSD card module, and breadboard. Orientate your breadboard with the the letters at the top as shown in the image below.
 
