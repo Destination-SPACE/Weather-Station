@@ -108,8 +108,8 @@ Once your enter bootloader mode on your XIAO a window should open on your comput
 
 That is all that is needed to program your weather station. If you would like to change the code to a different UF2 file follow the steps above. More up to date files can be found **here**. Additionally if you would like to upload Arduino .ino files to your XIAO follow the instructions **here**.
 
-## Step 4: Collecting Data
-Next is the fun part where we collect data and run different experiments. We will begin by inserting the microSD card into the microSD card module on your weather station. This is a nessisary step that must be completed **before** your weather station is connected to power.
+## Step 4: Connecting Batteries
+Next we will begin by inserting the microSD card into the microSD card module on your weather station. This is a nessisary step that must be completed **before** your weather station is connected to power.
 
 ### Inserting the MicroSD Card
 To insert the microSD card begin by orientating it to where the contacts are facing down and away from you. Then insert the card into the slot. The microSD card will only go in about halfway. Once the card is inserted the batteries can be connected. See the image below.
@@ -118,4 +118,13 @@ To insert the microSD card begin by orientating it to where the contacts are fac
 
 ### Connecting Battery Case
 
-The battery case is used to power the weather station when it is not connected to your computer. Begin by inserting your batteries in the correct orientation shown below. To connect the batteries to your weather station take the 1.25mm JST connector on your weather station and insert it into the matching JST receptacle. It should only connect in one direction. Take care when handling the JST connectors as to not damage the connections to the battery case or the XIAO. Once your batteries are connected to your weather station you should notice that the OLED display lights up and begins displaying the data being collected.
+The battery case is used to power the weather station when it is not connected to your computer. Begin by inserting your batteries in the correct orientation shown below. To connect the batteries to your weather station take the 1.25mm JST connector on your weather station and insert it into the matching JST receptacle. It should only connect in one direction, see GIF below. Take care when handling the JST connectors as to not damage the connections to the battery case or the XIAO.
+
+### Insert GIF of JST connection
+
+### Insert image of microSD card in module
+Once your batteries are connected to your weather station you should notice that the OLED display lights up and begins displaying the data being collected. Your weather station should look like the image below.
+
+### Insert image of weather station + batteries
+
+You have now sucessfully assembled and programmed your weather station. Below you can find example experiments, an introduction to interpreting your data, and coding your own custom programs for your Destination Weather Station. If you have any questions about what was covered above or in any other section of this repository, feel free to reach out to Austin Gleydura at austingleydura@pm.me
