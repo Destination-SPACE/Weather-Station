@@ -21,7 +21,7 @@ Each kit comes with all the materials needed to get started with your Destinatio
 
 ### Insert image of kit layed out
 
-## Step 1: Laying Out Components
+## Section 1: Laying Out Components
 Breadboards are a common tool used to prototype electronic circuits. They have several *busses* that are used to electrically connect sets of sockets together to allow the current in the circuit to be distributed across several sockets. Below is an image of how these busses are connected on a standard 30 row breadboard. Each socket in a breadboard has a unique name using the corresponding column (a-j) and row (1-30). For example hole **c1** is located in the third column and in the first row. This convention will be used going forward.
 
 ### Insert image of breadboard diagram
@@ -51,7 +51,7 @@ Your breadboard should look like the image below.
 
 ### Insert image of microSD module in breadboard
 
-## Step 2: Wiring
+## Section 2: Wiring
 Next we will be wiring together your weather station. Each wire will connect a pin on a component to a corresponding pin on the XIAO microcontroller. The XIAO microcontroller uses several protocols and interfaces, if you would like to learn more about the XIAO and it's protocols **Click here**. Below is a schematic of how the wires are connected in this project. Do not worry if this is confusing, the steps below are more than enough to wire your weather station.
 
 ### Insert image of schematic
@@ -92,7 +92,7 @@ Your breadboard should look like the image below.
 
 Your weather station is now fully wired and ready to be programmed. In the next step we will upload code to your weather station
 
-## Step 3: Programming
+## Section 3: Programming
 One of the benefits of using a XIAO as our microcontroller is that is supports a bootloader where you can drag and drop pre-compiled scripts onto it directly through your file manager like a flash drive! This makes getting started with the XIAO simple and can easily be done on Windows, Mac, and Chrome systems. In order to upload pre-compiled code to your XIAO you need to first put it in bootloader mode. 
 
 ### Entering Bootloader Mode
@@ -108,7 +108,7 @@ Once your enter bootloader mode on your XIAO a window should open on your comput
 
 That is all that is needed to program your weather station. If you would like to change the code to a different UF2 file follow the steps above. More up to date files can be found **here**. Additionally if you would like to upload Arduino .ino files to your XIAO follow the instructions **here**.
 
-## Step 4: Connecting Batteries
+## Section 4: Connecting Batteries
 Next we will begin by inserting the microSD card into the microSD card module on your weather station. This is a nessisary step that must be completed **before** your weather station is connected to power.
 
 ### Inserting the MicroSD Card
