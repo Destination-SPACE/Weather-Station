@@ -28,7 +28,7 @@ Breadboards are a common tool used to prototype electronic circuits. They have s
 
 Begin by grabbing your Seeeduino XIAO, BME280, OLED display, microSD card module, and breadboard. Orientate your breadboard with the the letters at the top as shown in the image below.
 
-### Insert image of breadboard
+<p align="center"><img src="/assets/IMG_8180.jpg" alt="Breadboard" width="500" align="center"></p>
 
 Start by taking your Seeeduino XIAO and orientating it where the USB-C connector is facing away from you. Insert the **top left** pin into hole **c1** on your breadboard and the **top right** pin into the **g1** hole. Your breadboard should look like the image below.
 
@@ -53,7 +53,7 @@ Your breadboard should look like the image below.
 ## Section 2: Wiring
 Next we will be wiring together your weather station. Each wire will connect a pin on a component to a corresponding pin on the XIAO microcontroller. The XIAO microcontroller uses several protocols and interfaces, if you would like to learn more about the XIAO and it's protocols **Click here**. Below is a schematic of how the wires are connected in this project. Do not worry if this is confusing, the steps below are more than enough to wire your weather station.
 
-### Insert image of schematic
+<p align="center"><img src="/assets/schematic.png" alt="Schematic" width="500" align="center"></p>
 
 ### OLED Display
 1. Connect a wire from hole **h2** (GND) to **i12** (GND)
@@ -97,7 +97,7 @@ One of the benefits of using a XIAO as our microcontroller is that is supports a
 ### Entering Bootloader Mode
 To enter bootloader mode begin by connecting your weather to your computer using your USB-C cable. Next you must short the reset pins twice in succession as shown in the GIF below. Only shorting the reset pins once will reset the XIAO, starting the code from the begining.
 
-### Insert GIF of XIAO bootloader
+<p align="center"><img src="/assets/XIAO-reset.gif" alt="Entering Bootloader Mode" width="500" align="center"></p>
 
 ### Uploading Files to  the XIAO
 
