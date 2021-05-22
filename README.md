@@ -52,7 +52,10 @@ Your breadboard should look like the image below.
 ### Insert image of microSD module in breadboard
 
 ## Step 2: Wiring
-Next we will be wiring together your weather station. Each wire will connect a pin on a component to a corresponding pin on the XIAO microcontroller. The XIAO microcontroller uses several protocols and interfaces, if you would like to learn more about the XIAO and it's protocols **Click here**. 
+Next we will be wiring together your weather station. Each wire will connect a pin on a component to a corresponding pin on the XIAO microcontroller. The XIAO microcontroller uses several protocols and interfaces, if you would like to learn more about the XIAO and it's protocols **Click here**. Below is a schematic of how the wires are connected in this project. Do not worry if this is confusing, the steps below are more than enough to wire your weather station.
+
+### Insert image of schematic
+
 ### OLED Display
 1. Connect a wire from hole **h2** (GND) to **i12** (GND)
 2. Connect a wire from hole **h1** (5V) to **i13** (VCC)
@@ -68,6 +71,8 @@ Your breadboard should look like the image below.
 2. Connect a wire from hole **h3** (3V3) to **a21** (3V3)
 3. Connect a wire from hole **a5** (SDA) to **a22** (SDA)
 4. Connect a wire from hole **a6** (SCL) to **a23** (SDA)
+
+* Please ensure all connections are correct. This sensor has minimal hardware on it and is suseptible to breaking easily if the power pins are connected to the microcontroller incorectly.
 
 Your breadboard should look like the image below.
 
@@ -88,8 +93,29 @@ Your breadboard should look like the image below.
 Your weather station is now fully wired and ready to be programmed. In the next step we will upload code to your weather station
 
 ## Step 3: Programming
-One of the benefits of using a XIAO as our microcontroller is that is supports a bootloader where you can drag and drop pre-compiled scripts onto it directly through your file manager like a flash drive! This makes getting started with the XIAO simple and can easily be done on Windows, Mac, and Chrome systems. In order to upload pre-compiled code to your XIAO you need to first put it in bootloader mode you must short the reset pins twice in succession as shown in the GIF below. Shorting the reset pins once will reset the XIAO, starting the code from the begining.
+One of the benefits of using a XIAO as our microcontroller is that is supports a bootloader where you can drag and drop pre-compiled scripts onto it directly through your file manager like a flash drive! This makes getting started with the XIAO simple and can easily be done on Windows, Mac, and Chrome systems. In order to upload pre-compiled code to your XIAO you need to first put it in bootloader mode. 
+
+### Entering Bootloader Mode
+To enter bootloader mode begin by connecting your weather to your computer using your USB-C cable. Next you must short the reset pins twice in succession as shown in the GIF below. Only shorting the reset pins once will reset the XIAO, starting the code from the begining.
 
 ### Insert GIF of XIAO bootloader
 
+### Uploading Files to  the XIAO
 
+Once your enter bootloader mode on your XIAO a window should open on your computer showing the file directory of your XIAO. To upload a script to your XIAO simply drag and drop a UF2 (USB Flashing Format) file into the XIAOs directory as shown in the GIF below. The flashdrive provided with your kits contains the UF2 file needed for this camp. Once the file is uploaded to your XIAO the window will close and the script will run on your weather station.
+
+### Insert GIF of XIAO uploading
+
+That is all that is needed to program your weather station. If you would like to change the code to a different UF2 file follow the steps above. More up to date files can be found **here**. Additionally if you would like to upload Arduino .ino files to your XIAO follow the instructions **here**.
+
+## Step 4: Collecting Data
+Next is the fun part where we collect data and run different experiments. We will begin by inserting the microSD card into the microSD card module on your weather station. This is a nessisary step that must be completed **before** your weather station is connected to power.
+
+### Inserting the MicroSD Card
+To insert the microSD card begin by orientating it to where the contacts are facing down and away from you. Then insert the card into the slot. The microSD card will only go in about halfway. Once the card is inserted the batteries can be connected. See the image below.
+
+### Insert image of microSD card in module
+
+### Connecting Battery Case
+
+The battery case is used to power the weather station when it is not connected to your computer. Begin by inserting your batteries in the correct orientation shown below. To connect the batteries to your weather station take the 1.25mm JST connector on your weather station and insert it into the matching JST receptacle. It should only connect in one direction. Take care when handling the JST connectors as to not damage the connections to the battery case or the XIAO. Once your batteries are connected to your weather station you should notice that the OLED display lights up and begins displaying the data being collected.
