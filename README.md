@@ -131,6 +131,6 @@ You have now sucessfully assembled and programmed your weather station. Below yo
 
 **Experiments**
 **Data Analytics**
-**Arduino Programming*
+**Arduino Programming**
 
 If you have any questions about what was covered above or in any other section of this repository, feel free to reach out to Austin Gleydura at austingleydura@pm.me
