@@ -6,3 +6,5 @@ These instructions are for installing Arduino IDE on Windows. Below are the deta
 
 ## Step 1: Download Arduino IDE
 Navigate to the [Arduino software page](https://www.arduino.cc/en/software) and download the latest version by clicking the **Windows 7 and newer** button as shown below.
+
+https://github.com/Destination-SPACE/Weather-Station/blob/main/assets/ideDownload.PNG
