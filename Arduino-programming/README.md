@@ -16,6 +16,7 @@ Once you have sucessfully installed Arduino IDE follow the instructions below.
 To program the XIAO you will need to download the Seeeduino board manager so IDE can communicate with the XIAO.
 - In Arduino IDE go to File > Preferences
 - In the Preferences window go down to the **Additional Boards Manager URLs:** text box. Copy and paste the following URL and click the **OK** button.
+
 Seeeduino Board Manager URL: https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json
 
 <p align="center"><img src="/assets/boardManagers.PNG" alt="Arduino IDE Board Managers" align="center"></p>
