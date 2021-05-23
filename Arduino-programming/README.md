@@ -40,3 +40,13 @@ To get the weather station working you will need to install code libraries to wo
 ### Insert image of installing SparkFun BME280
 
 ## Section 4: Uploading Code
+To upload code to your weather station follow the instructions below. You can modify the code if you would like before uploading.
+- Plug your weather station into your computer with the USB-C cable.
+- Open the **wxCodeExplained.ino** file.
+- Click Tools and make sure your settings are similar to the ones shown below. Your COM Port may be different. Make sure the one that has **(Seeeduino XIAO)** is selected.
+
+<p align="center"><img src="/assets/tools.PNG" alt="Arduino IDE Tools" align="center"></p>
+
+- Click the tiel arrow near the top left to upload your code
+- Wait for the code to compile and upload. This will open your file manager and close it.
+- Once your OLED display is reading weather data you can unplug your weather station.
