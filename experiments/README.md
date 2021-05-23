@@ -13,7 +13,7 @@ Preform the same experiment following steps 1-3 above but in your freezer, and o
 2. Wait 30 seconds for the pressure and tempreture values to stabalize and then record them.
 3. rearranging the formula below, calculate the approximate altitude (in meters) of your current location.
 
-  P = P<sub>0*e<sup>-Mgh⋅(RT)<sup>-1</sup>
+  ### P = P<sub>0*e<sup>-Mgh⋅(RT)<sup>-1</sup>
   
   - P: Measured Pressure (Pa)
   
@@ -29,10 +29,18 @@ Preform the same experiment following steps 1-3 above but in your freezer, and o
 
   - T: Tempertature (K)
   
-  After solving for h you get the equation: h = ln(P⋅P<sub>0</sub><sup>-1</sup>)⋅RT⋅(Mg)<sup>-1</sup>
+  After solving for h you get the equation
+  ### h = ln(P⋅P<sub>0</sub><sup>-1</sup>)⋅RT⋅(Mg)<sup>-1</sup>
 
 4. Now enter your address into [this website](https://www.advancedconverter.com/map-tools/find-elevation-of-address) to get the actual elevation of your current location
-
 5. Does your calculated elevation roughly equal your actual elevation? Record your thoughts on why or why not.
   
-## Experiment 3: Humidity
+## Experiment 3: Humidity (optional)
+1. Take your weather station with the batteries connected and put it in your bathroom while showering. This is a good way of increasing the ambient air humidity without wasting water.
+2. Record your results
+3. Preform the same steps as above, but use a hair dryer on the low setting. By using a hairdryer you drive off moisture and increase tempreture.
+  
+## Experiment 4: Putting it all Together
+1. Upload the **overnightDataCollection.UF2** file to your weather station using the steps outlined **here**. This changes your weather station from collecting data every 3 seconds to every minute. 
+2. Take your weather station with the batteries connected and put it outside overnight if possible in an area where it is unlikely to be blown away or rained on. A good option is a covered porch or under a bucket or plastic container, make sure that air is allowed to freely circulate around the weather station.
+2. Use the data stored on your microSD card to review your results and preform data analytics.
