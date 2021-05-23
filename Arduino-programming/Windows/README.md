@@ -4,7 +4,6 @@ These instructions are for installing Arduino IDE on Windows. Below are the deta
 #### Version: 20H2
 #### Build: 91042.985
 
-## Step 1: Download Arduino IDE
 - Navigate to the [Arduino software page](https://www.arduino.cc/en/software) and download the latest version by clicking the **Windows 7 and newer** button as shown below.
 
 <p align="center"><img src="/assets/ideDownload.PNG" alt="Breadboard Diagram" align="center"></p>
