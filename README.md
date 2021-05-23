@@ -130,8 +130,8 @@ You have now sucessfully assembled and programmed your weather station. Below yo
 
 [Experiments](https://github.com/Destination-SPACE/Weather-Station/tree/main/experiments)
 
-**Data Analytics**
+[Data Analytics](https://github.com/Destination-SPACE/Weather-Station/tree/main/data-analytics)
 
-**Arduino Programming**
+[Arduino Programming](https://github.com/Destination-SPACE/Weather-Station/tree/main/Arduino-programming)
 
 If you have any questions about what was covered above or in any other section of this repository, feel free to reach out to Austin Gleydura at austingleydura@pm.me
