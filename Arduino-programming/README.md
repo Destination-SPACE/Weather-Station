@@ -42,7 +42,7 @@ To get the weather station working you will need to install code libraries to wo
 ## Section 4: Uploading Code
 To upload code to your weather station follow the instructions below. You can modify the code if you would like before uploading.
 - Plug your weather station into your computer with the USB-C cable.
-- Open the [wxCodeExplained.ino](https://github.com/Destination-SPACE/Weather-Station/blob/main/Arduino-programming/wxCode_explained.ino) file.
+- Open the [wxCodeExplained.ino](https://github.com/Destination-SPACE/Weather-Station/blob/main/Arduino-programming/wxCode_explained.ino) file in IDE.
 - Click Tools and make sure your settings are similar to the ones shown below. Your COM Port may be different. Make sure the one that has **(Seeeduino XIAO)** is selected.
 
 <p align="center"><img src="/assets/tools.PNG" alt="Arduino IDE Tools" align="center"></p>
