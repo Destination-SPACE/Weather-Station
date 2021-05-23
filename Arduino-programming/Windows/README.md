@@ -17,4 +17,4 @@ These instructions are for installing Arduino IDE on Windows. Below are the deta
 
 - Follow the setup instructions keeping everything set to their default settings.
 - Open IDE
-- Return to the [main page](https://github.com/Destination-SPACE/Weather-Station/edit/main/Arduino-programming)
+- Return to the [Arduino page](https://github.com/Destination-SPACE/Weather-Station/edit/main/Arduino-programming)
