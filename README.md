@@ -128,7 +128,7 @@ Once your batteries are connected to your weather station you should notice that
 
 You have now sucessfully assembled and programmed your weather station. Below you can find example experiments, an introduction to interpreting your data, and coding your own custom programs for your Destination Weather Station. 
 
-**Experiments**
+[Experiments](https://github.com/Destination-SPACE/Weather-Station/tree/main/experiments)
 
 **Data Analytics**
 
