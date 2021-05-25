@@ -28,19 +28,19 @@ Breadboards are a common tool used to prototype electronic circuits. They have s
 
 Begin by grabbing your Seeeduino XIAO, BME280, OLED display, microSD card module, and breadboard. Orientate your breadboard with the the letters at the top as shown in the image below.
 
-<p align="center"><img src="/assets/IMG_8180.jpg" alt="Breadboard" width="250" align="center"></p>
+<p align="center"><img src="/assets/IMG_8180.jpg" alt="Breadboard" width="500" align="center"></p>
 
 Start by taking your Seeeduino XIAO and orientating it where the USB-C connector is facing away from you. Insert the **top left** pin into hole **c1** on your breadboard and the **top right** pin into the **g1** hole. Your breadboard should look like the image below.
 
-<p align="center"><img src="/assets/IMG_8187-2.jpg" alt="XIAO in breadboard" width="250" align="center"></p>
+<p align="center"><img src="/assets/IMG_8187-2.jpg" alt="XIAO in breadboard" width="500" align="center"></p>
 
 Next take your OLED display and orientate it to where the pins are facing **your right**. Insert the **GND** pin into hole **h12** and insert the **SDA** pin into hole **h15**. Your breadboard should look like the image below.
 
-<p align="center"><img src="/assets/IMG_8188.jpg" alt="OLED in breadboard" width="250" align="center"></p>
+<p align="center"><img src="/assets/IMG_8188.jpg" alt="OLED in breadboard" width="500" align="center"></p>
 
 Now take your BME280 sensor and irentate it to where the pins are facing **your left**. Insert the **GND** pin into hole **b20** and insert the **SCL** pin into hole **b23**. Your breadboard should look like the image below.
 
-<p align="center"><img src="/assets/IMG_8189.jpg" alt="BME280 in breadboard" width="250" align="center"></p>
+<p align="center"><img src="/assets/IMG_8189.jpg" alt="BME280 in breadboard" width="500" align="center"></p>
 
 Finally take your microSD card module and orientate it to where the pins are facing **your right**. Using the image below of the pin layout insert the **GND** pin into hole **f25** and insert the **3v3** pin into hole **f30**. 
 
@@ -48,7 +48,7 @@ Finally take your microSD card module and orientate it to where the pins are fac
 
 Your breadboard should look like the image below.
 
-<p align="center"><img src="/assets/IMG_8190.jpg" alt="microSD module in breadboard" width="250" align="center"></p>
+<p align="center"><img src="/assets/IMG_8190.jpg" alt="microSD module in breadboard" width="500" align="center"></p>
 
 ## Section 2: Wiring
 Next we will be wiring together your weather station. Each wire will connect a pin on a component to a corresponding pin on the XIAO microcontroller. The XIAO microcontroller uses several protocols and interfaces, if you would like to learn more about the XIAO and it's protocols **Click here**. Below is a schematic of how the wires are connected in this project. Do not worry if this is confusing, the steps below are more than enough to wire your weather station.
@@ -121,10 +121,9 @@ The battery case is used to power the weather station when it is not connected t
 
 ### Insert GIF of JST connection
 
-### Insert image of microSD card in module
 Once your batteries are connected to your weather station you should notice that the OLED display lights up and begins displaying the data being collected. Your weather station should look like the image below.
 
-### Insert image of weather station + batteries
+<p align="center"><img src="/assets/IMG_8168.jpg" alt="weather station + batteries" width="500" align="center"></p>
 
 You have now sucessfully assembled and programmed your weather station. Below you can find example experiments, an introduction to interpreting your data, and coding your own custom programs for your Destination Weather Station. 
 
