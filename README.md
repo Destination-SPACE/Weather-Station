@@ -105,7 +105,7 @@ Once your enter bootloader mode on your XIAO a window should open on your comput
 
 ### Insert GIF of XIAO uploading
 
-That is all that is needed to program your weather station. If you would like to change the code to a different UF2 file follow the steps above. More up to date files can be found [here](https://github.com/Destination-SPACE/Weather-Station/code). Additionally if you would like to upload Arduino .ino files to your XIAO follow the instructions [here](https://github.com/Destination-SPACE/Weather-Station/Arduino-programming).
+That is all that is needed to program your weather station. If you would like to change the code to a different UF2 file follow the steps above. More up to date files can be found [here](https://github.com/Destination-SPACE/Weather-Station/tree/main/code). Additionally if you would like to upload Arduino .ino files to your XIAO follow the instructions [here](https://github.com/Destination-SPACE/Weather-Station/tree/main/Arduino-programming).
 
 ## Section 4: Connecting Batteries
 Next we will begin by inserting the microSD card into the microSD card module on your weather station. This is a nessisary step that must be completed **before** your weather station is connected to power.
@@ -127,10 +127,10 @@ Once your batteries are connected to your weather station you should notice that
 
 You have now sucessfully assembled and programmed your weather station. Below you can find example experiments, an introduction to interpreting your data, and coding your own custom programs for your Destination Weather Station. 
 
-[Experiments](https://github.com/Destination-SPACE/Weather-Station/experiments)
+[Experiments](https://github.com/Destination-SPACE/Weather-Station/tree/mainexperiments)
 
-[Data Analytics](https://github.com/Destination-SPACE/Weather-Station/data-analytics)
+[Data Analytics](https://github.com/Destination-SPACE/Weather-Station/tree/main/data-analytics)
 
-[Arduino Programming](https://github.com/Destination-SPACE/Weather-Station/Arduino-programming)
+[Arduino Programming](https://github.com/Destination-SPACE/Weather-Station/tree/main/Arduino-programming)
 
 If you have any questions about what was covered above or in any other section of this repository, feel free to reach out to Austin Gleydura at austingleydura@pm.me
