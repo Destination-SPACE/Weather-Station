@@ -28,27 +28,27 @@ Breadboards are a common tool used to prototype electronic circuits. They have s
 
 Begin by grabbing your Seeeduino XIAO, BME280, OLED display, microSD card module, and breadboard. Orientate your breadboard with the the letters at the top as shown in the image below.
 
-<p align="center"><img src="/assets/IMG_8180.jpg" alt="Breadboard" width="500" align="center"></p>
+<p align="center"><img src="/assets/IMG_8180.jpg" alt="Breadboard" width="250" align="center"></p>
 
 Start by taking your Seeeduino XIAO and orientating it where the USB-C connector is facing away from you. Insert the **top left** pin into hole **c1** on your breadboard and the **top right** pin into the **g1** hole. Your breadboard should look like the image below.
 
-### Insert image of XIAO in breadboard
+<p align="center"><img src="/assets/IMG_8187-2.jpg" alt="XIAO in breadboard" width="250" align="center"></p>
 
 Next take your OLED display and orientate it to where the pins are facing **your right**. Insert the **GND** pin into hole **h12** and insert the **SDA** pin into hole **h15**. Your breadboard should look like the image below.
 
-### Insert image of OLED in breadboard
+<p align="center"><img src="/assets/IMG_8188.jpg" alt="OLED in breadboard" width="250" align="center"></p>
 
 Now take your BME280 sensor and irentate it to where the pins are facing **your left**. Insert the **GND** pin into hole **b20** and insert the **SCL** pin into hole **b23**. Your breadboard should look like the image below.
 
-### Insert image of BME280 in breadboard
+<p align="center"><img src="/assets/IMG_8189.jpg" alt="BME280 in breadboard" width="250" align="center"></p>
 
 Finally take your microSD card module and orientate it to where the pins are facing **your right**. Using the image below of the pin layout insert the **GND** pin into hole **f25** and insert the **3v3** pin into hole **f30**. 
 
-### Insert image of microSD card module upsidedown
+<p align="center"><img src="/assets/IMG_8191.jpg" alt="microSD module pinout" width="500" align="center"></p>
 
 Your breadboard should look like the image below.
 
-### Insert image of microSD module in breadboard
+<p align="center"><img src="/assets/IMG_8190.jpg" alt="microSD module in breadboard" width="250" align="center"></p>
 
 ## Section 2: Wiring
 Next we will be wiring together your weather station. Each wire will connect a pin on a component to a corresponding pin on the XIAO microcontroller. The XIAO microcontroller uses several protocols and interfaces, if you would like to learn more about the XIAO and it's protocols **Click here**. Below is a schematic of how the wires are connected in this project. Do not worry if this is confusing, the steps below are more than enough to wire your weather station.
@@ -63,7 +63,7 @@ Next we will be wiring together your weather station. Each wire will connect a p
 
 Your breadboard should look like the image below.
 
-### Insert image of OLED wired
+<p align="center"><img src="/assets/IMG_8192.jpg" alt="OLED wired" width="500" align="center"></p>
 
 ### BME280 Sensor
 1. Connect a wire from hole **i2** (GND) to **a20** (GND)
@@ -75,7 +75,7 @@ Your breadboard should look like the image below.
 
 Your breadboard should look like the image below.
 
-### Insert image of BME280 wired
+<p align="center"><img src="/assets/IMG_8193.jpg" alt="BME280 wired" width="500" align="center"></p>
 
 ### MicroSD Card Module
 1. Connect a wire from hole **j2** (GND) to **g25** (GND)
@@ -87,7 +87,7 @@ Your breadboard should look like the image below.
 
 Your breadboard should look like the image below.
 
-### Insert image of microSD wired
+<p align="center"><img src="/assets/IMG_8194.jpg" alt="microSD module wired" width="500" align="center"></p>
 
 Your weather station is now fully wired and ready to be programmed. In the next step we will upload code to your weather station
 
@@ -113,7 +113,7 @@ Next we will begin by inserting the microSD card into the microSD card module on
 ### Inserting the MicroSD Card
 To insert the microSD card begin by orientating it to where the contacts are facing down and away from you. Then insert the card into the slot. The microSD card will only go in about halfway. Once the card is inserted the batteries can be connected. See the image below.
 
-### Insert image of microSD card in module
+<p align="center"><img src="/assets/IMG_8195.jpg" alt="micrSD card" width="500" align="center"></p>
 
 ### Connecting Battery Case
 
