@@ -105,7 +105,7 @@ Once your enter bootloader mode on your XIAO a window should open on your comput
 
 ### Insert GIF of XIAO uploading
 
-That is all that is needed to program your weather station. If you would like to change the code to a different UF2 file follow the steps above. More up to date files can be found **here**. Additionally if you would like to upload Arduino .ino files to your XIAO follow the instructions **here**.
+That is all that is needed to program your weather station. If you would like to change the code to a different UF2 file follow the steps above. More up to date files can be found **here**. Additionally if you would like to upload Arduino .ino files to your XIAO follow the instructions [here](https://github.com/Destination-SPACE/Weather-Station/code).
 
 ## Section 4: Connecting Batteries
 Next we will begin by inserting the microSD card into the microSD card module on your weather station. This is a nessisary step that must be completed **before** your weather station is connected to power.
