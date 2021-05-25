@@ -13,7 +13,7 @@ Preform the same experiment following steps 1-3 above but in your freezer, and o
 2. Wait 30 seconds for the pressure and tempreture values to stabalize and then record them.
 3. rearranging the formula below, calculate the approximate altitude (in meters) of your current location.
 
-  ### P = P<sub>0</sub>*e<sup>-Mgh⋅(RT)<sup>-1</sup></sup>
+  ### P = P<sub>0</sub>⋅e<sup>-Mgh⋅(RT)<sup>-1</sup></sup>
   
   - P: Measured Pressure (Pa)
   
