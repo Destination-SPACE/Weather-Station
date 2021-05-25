@@ -51,7 +51,7 @@ Your breadboard should look like the image below.
 <p align="center"><img src="/assets/IMG_8190.jpg" alt="microSD module in breadboard" width="500" align="center"></p>
 
 ## Section 2: Wiring
-Next we will be wiring together your weather station. Each wire will connect a pin on a component to a corresponding pin on the XIAO microcontroller. The XIAO microcontroller uses several protocols and interfaces, if you would like to learn more about the XIAO and it's protocols **Click here**. Below is a schematic of how the wires are connected in this project. Do not worry if this is confusing, the steps below are more than enough to wire your weather station.
+Next we will be wiring together your weather station. Each wire will connect a pin on a component to a corresponding pin on the XIAO microcontroller. The XIAO microcontroller uses several protocols and interfaces, if you would like to learn more about the XIAO and it's protocols click [here](https://github.com/Destination-SPACE/Weather-Station/edit/main/XIAO). Below is a schematic of how the wires are connected in this project. Do not worry if this is confusing, the steps below are more than enough to wire your weather station.
 
 <p align="center"><img src="/assets/schematic.png" alt="Schematic" width="500" align="center"></p>
 
