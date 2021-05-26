@@ -19,7 +19,7 @@ Each kit comes with all the materials needed to get started with your Destinatio
 10. MicroSD card adapter
 11. Jumper wires
 
-### Insert image of kit layed out
+<p align="center"><img src="/assets/parts.png" alt="Kit parts" width="1000" align="center"></p>
 
 ## Section 1: Laying Out Components
 Breadboards are a common tool used to prototype electronic circuits. They have several *busses* that are used to electrically connect sets of sockets together to allow the current in the circuit to be distributed across several sockets. Below is an image of how these busses are connected on a standard 30 row breadboard. Each socket in a breadboard has a unique name using the corresponding column (a-j) and row (1-30). For example hole **c1** is located in the third column and in the first row. This convention will be used going forward.
