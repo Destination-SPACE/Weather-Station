@@ -119,7 +119,7 @@ To insert the microSD card begin by orientating it to where the contacts are fac
 
 The battery case is used to power the weather station when it is not connected to your computer. Begin by inserting your batteries in the correct orientation shown below. To connect the batteries to your weather station take the 1.25mm JST connector on your weather station and insert it into the matching JST receptacle. It should only connect in one direction, see GIF below. Take care when handling the JST connectors as to not damage the connections to the battery case or the XIAO.
 
-### Insert GIF of JST connection
+<p align="center"><img src="/assets/MVI_8202_2.gif" alt="weather station + batteries" width="462" align="center"></p>
 
 Once your batteries are connected to your weather station you should notice that the OLED display lights up and begins displaying the data being collected. Your weather station should look like the image below.
 
