@@ -1,4 +1,4 @@
-# XIAO Code
+# XIAO Compiled Code
 Compiled UF2 code for Seeeduino XIAO
 
 [Blink.ino.uf2](https://github.com/Destination-SPACE/Weather-Station/blob/main/code/Blink.ino.uf2): Flash the LED on the XIAO
